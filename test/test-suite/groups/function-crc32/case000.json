@@ -1,0 +1,6 @@
+{
+    "expr": "$crc32(\"Hello World\")",
+    "dataset": null,
+    "bindings": {},
+    "result": 1243066710
+}

@@ -1912,6 +1912,8 @@ var jsonata = (function() {
     staticFrame.bind('toMillis', defineFunction(datetime.toMillis, '<s-s?:n>'));
     staticFrame.bind('fromMillis', defineFunction(datetime.fromMillis, '<n-s?s?:s>'));
     staticFrame.bind('clone', defineFunction(functionClone, '<(oa)-:o>'));
+    staticFrame.bind('crc32', defineFunction(fn.crc32, '<s-:s>'));
+    staticFrame.bind('djb2', defineFunction(fn.djb2, '<s-:s>'));
 
     /**
      * Error codes
